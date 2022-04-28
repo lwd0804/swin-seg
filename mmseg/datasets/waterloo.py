@@ -8,7 +8,7 @@ from .custom import CustomDataset
 class WaterlooDataset(CustomDataset):
     """HRF dataset.
 
-    In segmentation map annotation for HRF, 0 stands for background, which is
+    In segmentation map annotation for waterloo, 0 stands for background, which is
     included in 2 categories. ``reduce_zero_label`` is fixed to False. The
     ``img_suffix`` is fixed to '.png' and ``seg_map_suffix`` is fixed to
     '.png'.
